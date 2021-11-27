@@ -22,3 +22,6 @@ a:hover{
 html{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+input[type=submit]{
+    background-color: green;
+}

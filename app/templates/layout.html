@@ -1,3 +1,9 @@
+<!-- Gotta Go Fast - Andy Lin, Mark Zhu
+SoftDev
+K20 - applying own css on someone's webpage
+2021-11-24
+time spent: 1.5 -->
+
 <!DOCTYPE html>
 <link rel="stylesheet" href="/static/css/style.css" />
 <html>
@@ -12,10 +18,13 @@
     is logged in or not-->
     <nav>
       <div class="innernav">
+        <div class="home">
         <a id="home" href="/"> Home </a>
+      </div>
+      <div class="spacerhead"></div>
         <div class="navbuttons">
           {% if user %}
-          <p id="username">{{ user }} </u></p>
+          <p id="username">{{ user }} </u>
           <a id="logout" href="/logout"> Logout </a>
           {% else %}
           <a id="login" href="/login"> Login </a>

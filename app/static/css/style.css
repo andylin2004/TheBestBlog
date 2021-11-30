@@ -1,5 +1,14 @@
+/* Gotta Go Fast - Andy Lin, Mark Zhu
+SoftDev
+K20 - applying own css on someone's webpage
+2021-11-24
+time spent: 1.5 */
+
 .home{
-    flex:1;
+    flex: 1;
+}
+.spacerhead{
+    flex: 15;
 }
 .navbuttons{
     flex:10;
@@ -24,4 +33,29 @@ html{
 }
 input[type=submit]{
     background-color: green;
+    color: white;
+    border: 0 none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    border: 3px, solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+input[type=password]{
+    border: 3px, solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+textarea{
+    border: 3px, solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 12px;
 }

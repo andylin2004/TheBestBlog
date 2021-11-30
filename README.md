@@ -1,4 +1,21 @@
 # TheBestBlog
+
+RAIDED BY ANDY LIN AND MARK ZHU BUT WE GOTTA GO FAST
+Gotta Go Fast - Andy Lin, Mark Zhu
+SoftDev
+K20 - applying own css on someone's webpage notes
+2021-11-24
+time spent: 1.5
+
+notes
+
+inputs are editable by using input[type=whatevertypeyouwant] and customizing the inside
+you can use css to force the whole website to be comics sans because i can
+you can customize the behavior of when a cursor is over a limk with a:hover and customizing what happens to the cursor
+font size can be changed on form elements
+you can remove borders from form buttons to make it less ugly. dont do it on text inputs, as people will end up having issues detecting where the form inputs are
+https://coolors.co/ is a great website to get color palettes
+
 TheBestBlog by Team The Best Cameron
 <br>
 Cameron Nelson - Python/SQLite3/Backend
